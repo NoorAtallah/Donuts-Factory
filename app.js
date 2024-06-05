@@ -1,11 +1,15 @@
 user_input = []
+function askGender() {
+    var gender;
+    while (gender !== "male" && gender !== "female") {
+        gender = prompt("Please enter your gender");
+    }
+    return gender;
+}
 
 var name = prompt("Please enter your name");
 user_input.push(name)
-var gender = prompt("Please enter your gender");
-while(gender!=="female" && gender!=="male"){
-    gender = prompt("Please enter your gender");
-}
+var gender = askGender();
 user_input.push(gender)
 
 if (gender=="male"){
