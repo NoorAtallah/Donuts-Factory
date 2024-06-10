@@ -15,6 +15,9 @@ body{
     position: relative;
 }
 
+
+
+
  .left-side h1{
     font-weight: bolder;
     font-size: 3rem;
@@ -109,4 +112,38 @@ body{
     color: black;
   }
 
-  
+  .contaner_2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   border:1px solid #EC008C ;
+ }
+
+ form {
+         display: inline-block;
+         text-align: left;
+     }
+
+#fname{
+   border-radius: 10px;
+   border:1px solid #f6891f;
+}
+#fname:focus, input:hover {
+   outline: none;
+   border-color: #EC008C;
+   background-color: #fff;
+   box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+  }
+
+#aname{
+   border-radius: 10px;
+   border:1px solid #f6891f;
+}
+
+#aname:focus, input:hover {
+   outline: none;
+   border-color: #EC008C;
+   background-color: #fff;
+   box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+  }
